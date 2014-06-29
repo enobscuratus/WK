@@ -42,8 +42,8 @@ def get_end_date():
 
 def get_mysqlpw():
 
-    return str(raw_input('Enter the password'))
+    return str(raw_input('Enter the password: '))
 
 def get_mysqlusr():
 
-    return str(raw_input('Enter the user id'))
+    return str(raw_input('Enter the user id: '))
