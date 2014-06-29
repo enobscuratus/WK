@@ -29,7 +29,7 @@ def obtain_parse_wiki_snp500():
         'name': tds[1].getchildren()[0].text,
         'sector': tds[1].text}
     # Create a tuple (for the DB format) and append to the grand list
-    symbols.append( (sd['ticker'], 'stock', sd['name'],.
+    symbols.append( (sd['ticker'], 'stock', sd['name'],
       sd['sector'], 'USD', now, now) )
   return symbols
 
