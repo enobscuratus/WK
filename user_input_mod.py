@@ -22,8 +22,16 @@ def get_end_date():
 
 def get_mysqlpw():
 
-    return str(raw_input('Enter the password: '))
+    return str(raw_input('Mysql: Enter the password: '))
 
 def get_mysqlusr():
 
-    return str(raw_input('Enter the user id: '))
+    return str(raw_input('Mysql: Enter the user id: '))
+
+def get_mysqldb():
+
+    return str(raw_input('Mysql: Enter the db name: '))
+    
+def get_mysqlhost():
+
+    return str(raw_input('Mysql: Enter the host: '))
