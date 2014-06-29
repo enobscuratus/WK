@@ -39,3 +39,11 @@ def get_end_date():
     encoded_end = str(object = raw_date)
 
     return encoded_end
+
+def get_mysqlpw():
+
+    return str(raw_input('Enter the password'))
+
+def get_mysqlusr():
+
+    return str(raw_input('Enter the user id'))
