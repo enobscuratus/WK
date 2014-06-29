@@ -18,7 +18,7 @@ def obtain_parse_wiki_snp500():
   now = datetime.datetime.utcnow()
 
   # Use libxml to download the list of S&P500 companies and obtain the symbol table
-  page = lxml.html.parse('http://en.wikipedia.org/wiki/List_of_S%26P_500_companies').
+  page = lxml.html.parse('http://en.wikipedia.org/wiki/List_of_S%26P_500_companies')
   symbolslist = page.xpath('//table[1]/tr')[1:]
 
   # Obtain the symbol information for each row in the S&P500 constituent table
