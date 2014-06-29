@@ -7,4 +7,8 @@ from user_input_mod import *
 
 def connectdb():
 
-  con = mdb.connect(get_mysqlhost(), get_mysqlusr(), get_mysqlpw(), get_mysqldb())
+  db_host = get_mysqlhost()
+  db_user = get_mysqlusr()
+  db_pass = get_mysqlpw()
+  db_name = get_mysqldb()
+  con = mdb.connect(db_host, db_user, db_pass, db_name)
