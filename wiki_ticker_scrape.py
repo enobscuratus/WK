@@ -50,7 +50,7 @@ def insert_snp500_symbols(symbols):
   print final_str, len(symbols)
 
    # Using the MySQL connection, carry out an INSERT INTO for every symbol
-   with con:.
+   with con:
      cur = con.cursor()
      # This line avoids the MySQL MAX_PACKET_SIZE
      # Although of course it could be set larger!
