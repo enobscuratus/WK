@@ -14,7 +14,7 @@ def get_ticker():
     return encoded_ticker
 
 
-def get_index():.
+def get_index():
 
 
     raw_ticker ="'" + raw_input('Enter the index symbol: ') +"'"
@@ -24,15 +24,15 @@ def get_index():.
     return encoded_ticker
 
 
-def get_start_date():.
+def get_start_date():
 
     raw_date ="'" + raw_input('Enter the start date: ') +"'"
 
     encoded_start = str(object = raw_date)
 
-    return encoded_start....
+    return encoded_start
 
-def get_end_date():.
+def get_end_date():
 
     raw_date ="'" + raw_input('Enter the end date: ') +"'"
 
